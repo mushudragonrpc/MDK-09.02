@@ -90,6 +90,10 @@ h1 {
     color: #94a3b8;
 }
 
+.id {
+    margin-bottom: 15px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -166,5 +170,49 @@ h1 {
 }
 
 .block form button:hover {
+    background: #4338ca;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+th {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.online {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.offline {
+    color: #f43f5e;
+    font-weight: bold;
+}
+
+.button-small {
+    background: #4f46e5;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.button-small:hover {
     background: #4338ca;
 }
